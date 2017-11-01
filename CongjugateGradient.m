@@ -1,3 +1,4 @@
+%用共轭梯度法实现的求局部最小值，n为正定矩阵A的阶数，ks为误差最大值，A为正定矩阵，B为行向量。
 function CongjugateGradient(n,ks,A,B)
 X=randperm(n);
 lambda=1;
